@@ -1,3 +1,14 @@
 .container {
-  padding-top: 5%;
+  padding: 5%;
+}
+
+.parr {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+
+  font-size: x-large;
+  color: rgb(201, 187, 187); /* Color del texto */
+  -webkit-text-stroke: 0.5px rgb(8, 15, 9);
+  font-weight: bold;
 }

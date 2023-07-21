@@ -23,36 +23,39 @@ export default function Form({ login }) {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div className={style.bienvenida}>
-        Bienvenido, ingresa tus credenciales:
-      </div>
-      <div className={style.container}>
-        <hr />
-        <label className={style.label}>Email:</label>
-        <input
-          type="text"
-          name="email"
-          onChange={handleChange}
-          value={userData.email}
-        />
-        {errors.email && <p className={style.danger}>{errors.email}</p>}
-      </div>
-      <h4>anonimo123@gmail.com</h4>
-      <div>
-        <label className={style.label}>Password:</label>
-        <input
-          type="password"
-          name="password"
-          onChange={handleChange}
-          value={userData.password}
-        />
-        {errors.password && <p className={style.danger}>{errors.password}</p>}
-      </div>
-      <h4>contra123</h4>
-      <div className={style.boton}>
-        <button type="submit">Submit</button>
-      </div>
-    </form>
+    <div className={style.cont}>
+      <form onSubmit={handleSubmit}>
+        <div className={style.bienvenida}>
+          Bienvenido, ingresa tus credenciales ⬇️
+        </div>
+        <div className={style.container}>
+          <hr />
+          <label className={style.label}>Email:</label>
+          <input
+            type="text"
+            name="email"
+            onChange={handleChange}
+            value={userData.email}
+          />
+          {errors.email && <p className={style.danger}>{errors.email}</p>}
+        </div>
+        <h4>anonimo123@gmail.com</h4>
+        <div>
+          <label className={style.label}>Password:</label>
+          <input
+            type="password"
+            name="password"
+            onChange={handleChange}
+            value={userData.password}
+          />
+          {errors.password && <p className={style.danger}>{errors.password}</p>}
+        </div>
+        <h4>contra123</h4>
+        <div className={style.boton}>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+      <div className={style.ultimo}></div>
+    </div>
   );
 }

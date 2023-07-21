@@ -1,11 +1,20 @@
+.cont {
+  margin: 0;
+  padding: 0;
+  background-image: url("C:\Users\Usuario\Desktop\rick_and_morty\src\27353.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
 .container {
   height: auto;
 
-  padding-top: 40px;
+  padding-top: 37px;
 }
 .bienvenida {
   align-self: baseline;
   padding-top: 50px;
+  color: bisque;
+  font-size: 20px;
 }
 
 .danger {
@@ -24,4 +33,7 @@
 .boton:hover {
   background-color: #4caf50; /* Green */
   color: white;
+}
+.ultimo {
+  padding: 14%;
 }
