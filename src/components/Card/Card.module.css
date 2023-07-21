@@ -1,0 +1,37 @@
+.divCard {
+  border: 3px solid slategray;
+  background-color: darkgray;
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  width: 30%;
+  height: 50%;
+  text-align: center;
+  margin: 5px;
+  padding: 7px;
+  border-radius: 25px;
+  font-size: 13px;
+}
+
+.imagen {
+  border-radius: 20px;
+  border: 2px solid rgb(199, 89, 89);
+  height: 50%;
+  width: 50%;
+}
+
+.botonCard {
+  color: brown;
+  background-color: gray;
+  border-radius: 35%;
+  width: 2.4em;
+  height: 2em;
+  font-weight: 800;
+  font-size: large;
+}
+.botonCard:hover {
+  background-color: red;
+  color: white;
+  width: 3em;
+  height: 3;
+}

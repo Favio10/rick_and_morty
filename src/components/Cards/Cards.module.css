@@ -1,0 +1,9 @@
+.divDiv {
+  display: flex;
+  padding: 40px;
+  margin: 0 auto;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  align-content: flex-start;
+}
