@@ -1,22 +1,23 @@
 import React from "react";
+import style from "./About.module.css";
 
 export default function About() {
   return (
-    <>
-      <h2>Esta pagina es de Favio</h2>
+    <div className={style.container}>
+      <h2>Hola, bienvenidos a mi pequeño proyecto!</h2>
       <hr />
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, tenetur
-        eius? Repellendus perspiciatis alias animi vel soluta praesentium
-        cupiditate odio, pariatur, saepe optio laboriosam inventore sint omnis
-        modi eligendi et.
+        El creador de esta proyecto es Favio Gonzalo Olivera, abajo te cuento un
+        poco que me motivo a realizarla.
       </p>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, tenetur
-        eius? Repellendus perspiciatis alias animi vel soluta praesentium
-        cupiditate odio, pariatur, saepe optio laboriosam inventore sint omnis
-        modi eligendi et.
+        Esta pagina principalmente fue creada para la etapa M2 de la carrera
+        Desarrollador Web Full Stack que estoy cursando actualmente en Henry. Me
+        motivó muchisimo desde el primer dia en el que nos comentaron que ibamos
+        a realizar algo asi, ya que antes de ingresar al bootcamp me encontraba
+        en el bucle infinito de ver tutoriales en YouTube pero sin aplicarlo en
+        un proyecto o pagina en especifico.
       </p>
-    </>
+    </div>
   );
 }

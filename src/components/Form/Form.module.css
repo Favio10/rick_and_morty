@@ -1,7 +1,27 @@
+.container {
+  height: auto;
+
+  padding-top: 40px;
+}
+.bienvenida {
+  align-self: baseline;
+  padding-top: 50px;
+}
+
 .danger {
   color: red;
 }
 
 .label {
   color: green;
+}
+.boton {
+  font-size: 12px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  display: inline-block;
+}
+.boton:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
 }

@@ -24,7 +24,11 @@ export default function Form({ login }) {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div>
+      <div className={style.bienvenida}>
+        Bienvenido, ingresa tus credenciales:
+      </div>
+      <div className={style.container}>
+        <hr />
         <label className={style.label}>Email:</label>
         <input
           type="text"
@@ -46,7 +50,7 @@ export default function Form({ login }) {
         {errors.password && <p className={style.danger}>{errors.password}</p>}
       </div>
       <h4>contra123</h4>
-      <div>
+      <div className={style.boton}>
         <button type="submit">Submit</button>
       </div>
     </form>
