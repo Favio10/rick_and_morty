@@ -14,6 +14,7 @@ function Favorites({ myFavorites }) {
             status={status}
             species={species}
             image={image}
+            gender={gender}
           />
         )
       )}
