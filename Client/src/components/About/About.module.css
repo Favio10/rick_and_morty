@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Bold-Italic";
+  src: url(../../../../RobotoCondensed-Italic.ttf);
+  color: rgb(150, 51, 51);
+  -webkit-text-stroke: 0.5px rgb(8, 15, 9);
+}
+
+.container {
+  padding: 5%;
+}
+
+.parr {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Bold-Italic";
+  font-size: x-large;
+  color: rgb(150, 51, 51);
+  -webkit-text-stroke: 0.5px rgb(8, 15, 9);
+  font-weight: bold;
+}

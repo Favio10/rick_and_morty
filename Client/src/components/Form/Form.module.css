@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Get Schwifty";
+  src: url(../../../../get_schwifty.ttf);
+}
+
+@font-face {
+  font-family: "Sans-Anger";
+  src: url(../../../../Sans\ Anger\ Demo.ttf);
+}
+.cont {
+  margin: 0;
+  padding: 0;
+  background-image: url("C:\Users\Usuario\Desktop\rick_and_morty\Client\src\27353.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container {
+  height: auto;
+
+  padding-top: 60px;
+}
+.bienvenida {
+  font-family: "Get Schwifty";
+  padding-top: 50px;
+  color: rgb(38, 176, 211);
+  font-size: 45px;
+  -webkit-text-stroke: 1px rgb(0, 0, 0);
+  text-shadow: 3px 3px 4px rgb(253, 253, 253);
+}
+.input {
+  font: 15px Helvetica, Arial, sans-serif;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.danger {
+  color: red;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.label {
+  color: rgb(128, 0, 0);
+  font-family: "Get Schwifty";
+  text-shadow: 3px 3px 4px rgb(253, 253, 253);
+  font-size: 25px;
+}
+
+.boton {
+  background-color: #030302;
+  border: 2px solid rgb(38, 176, 211);
+  border-radius: 30px;
+  color: #36fa1c;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 28px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  font-family: "Sans-Anger";
+}
+
+.boton:hover {
+  background-color: #5c0b0b;
+}
+
+.boton:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .boton {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+.medio {
+  padding: 5%;
+}
+.ultimo {
+  padding: 5%;
+}

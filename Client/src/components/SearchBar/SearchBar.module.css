@@ -1,0 +1,122 @@
+.segundoDiv {
+  position: absolute;
+  padding: 10px;
+  background-color: rgb(53, 53, 71);
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  top: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.5;
+  padding-bottom: 5px;
+}
+.segundoDiv:hover {
+  opacity: 1;
+}
+
+.inputDiv {
+  opacity: 0.5;
+  background-color: rgb(153, 153, 153);
+  transition: border-color 0.3s, padding 0.3s;
+}
+
+.inputDiv:hover {
+  opacity: 1;
+  padding: 0.5em;
+  border-color: transparent;
+}
+
+.boton {
+  opacity: 0.5;
+  color: white;
+  background-color: rgb(53, 53, 71);
+  border: 2px solid whitesmoke;
+  margin-left: 10px;
+  transition: border-color 0.3s, padding 0.3s;
+}
+
+.boton:hover {
+  opacity: 1;
+  padding: 0.5em;
+  color: black;
+  background-color: rgb(153, 153, 153);
+  border: none;
+  border-color: transparent;
+}
+
+.boton2 {
+  opacity: 0.5;
+  color: white;
+  background-color: rgb(53, 53, 71);
+  border: 2px solid whitesmoke;
+  margin-left: auto;
+  margin-right: 10px;
+  transition: border-color 0.3s, padding 0.3s;
+}
+
+.boton2:hover {
+  opacity: 1;
+  padding: 0.5em;
+  color: black;
+  background-color: rgb(153, 153, 153);
+  border: none;
+  border-color: transparent;
+}
+
+.logOut {
+  opacity: 0.5;
+  color: rgb(184, 0, 0);
+  background-color: rgb(145, 145, 145);
+  border: 2px solid whitesmoke;
+  margin-left: 0;
+  margin-right: 10px;
+  transition: border-color 0.3s, padding 0.3s;
+}
+
+.logOut:hover {
+  opacity: 1;
+  padding: 0.5em;
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 0, 0);
+  border: none;
+  border-color: transparent;
+}
+
+.volver {
+  opacity: 0.5;
+  color: rgb(145, 145, 145);
+  background-color: rgb(27, 85, 36);
+  border: 2px solid whitesmoke;
+  margin-left: 0;
+  margin-right: 10px;
+  transition: border-color 0.3s, padding 0.3s;
+}
+
+.volver:hover {
+  opacity: 1;
+  padding: 0.5em;
+  color: rgb(255, 255, 255);
+  background-color: rgb(20, 165, 56);
+  border: none;
+  border-color: transparent;
+}
+
+.fav {
+  opacity: 0.5;
+  color: rgb(145, 145, 145);
+  background-color: rgb(255, 0, 0);
+  border: 2px solid whitesmoke;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: border-color 0.3s, padding 0.3s;
+}
+
+.fav:hover {
+  opacity: 1;
+  padding: 0.5em;
+  color: rgb(247, 0, 0);
+  background-color: rgb(245, 245, 245);
+  border: none;
+  border-color: transparent;
+}
